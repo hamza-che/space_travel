@@ -1,11 +1,11 @@
+import React from "react";
+import DesignSystem from "./components/design_system/DesignSystem";
+
 function App() {
   return (
-    <div className="flex call-to-action container">
-      <div className="box">a</div>
-      <div className="box">b</div>
-      <div className="box">c</div>
-      <div className="box">d</div>
-    </div>
+    <React.Fragment>
+      <DesignSystem />
+    </React.Fragment>
   );
 }
 
